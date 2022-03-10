@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { fetchImagesThunk } from "./thunks";
+import { fetchImagesThunk } from "./store/thunks";
 
 function App() {
   const dispatch = useDispatch();
